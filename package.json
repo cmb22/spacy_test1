@@ -1,0 +1,41 @@
+{
+  "name": "spaceshipblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "wpe-build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.6",
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@mui/material-nextjs": "^5.16.6",
+    "@next/font": "^14.2.5",
+    "@next/third-parties": "^14.2.7",
+    "@nextui-org/react": "^2.4.6",
+    "@react-aria/i18n": "^3.12.2",
+    "@react-stately/utils": "^3.10.3",
+    "framer-motion": "^11.3.28",
+    "graphql": "^16.5.0",
+    "html-react-parser": "^5.1.15",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "install": "^0.13.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --wp--preset--spacing--10: 0.22rem;
+  --wp--preset--spacing--20: 0.44rem;
+  --wp--preset--spacing--30: 0.67rem;
+  --wp--preset--spacing--40: 1rem;
+  --wp--preset--spacing--50: 1.5rem;
+  --wp--preset--spacing--60: 2.25rem;
+  --wp--preset--spacing--70: 3.38rem;
+  --wp--preset--spacing--80: 5.06rem;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 5000px;
+  /* border-bottom: 1px solid rgba(121, 121, 121, 0.976); */
+  background-color: white;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: larger;
+  color: yellow;
+}
+
+.figure-centre {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+.has-text-align-left {
+  text-align: left;
+}
+
+.has-text-align-right {
+  text-align: right;
+}
+
+.wp-block-embed-youtube {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  /* 12/6 */
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 30px 0;
+}
+
+.wp-block-embed__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

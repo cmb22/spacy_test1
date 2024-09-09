@@ -1,0 +1,40 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.grid li {
+    flex: 1 0 40%;
+    max-width: calc(50% - 30px);
+}
+
+.background {
+    background: #fad237 url("/blog/images/yellowbg.jpg") center top no-repeat;
+    width: 100%;
+    height: 150px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 12rem 40px 4rem 40px;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
